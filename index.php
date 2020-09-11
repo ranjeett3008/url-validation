@@ -6,6 +6,7 @@
 $(document).ready(function(){
    function isValidUrl(value)
 	{
+                //Pattern
 		var pattern = /^(http|https)?:\/\/[a-zA-Z0-9-\.]+\.[a-z]{2,4}/;
 		var specialChars = "%<>@!#$%^&*()_+[]{}?;|'\"\\,~`-=";
 		isValid = false;
