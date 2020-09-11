@@ -27,6 +27,7 @@ $(document).ready(function(){
 		{
 			isValid = false;
 		}
+                alert(isValid);
 		return isValid;
 	}
 
